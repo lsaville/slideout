@@ -1,3 +1,4 @@
+
 @import url('reset.css');
 
 body{
@@ -26,11 +27,20 @@ p{
 }
 
 #slide-out{
+	-moz-transition:all 1s ease-in-out;
+	-webkit-transition:all 1s ease-in-out;
+	-o-transition: all 1s ease-in-out;
+	transition:all 1s ease-in-out;
 	background-color: #686868;
 	height: 73px;
 	color:#fff;
 	position: relative;
 	padding-top: 25px;
+	margin-top:-98px;
+}
+
+#subscribe{
+	line-height: 0px;
 }
 
 .page-wrap{
@@ -48,14 +58,19 @@ p{
 
 .button {
 	background-image:url("subscribe-button.png");
+	bottom:-63px;
 	color:#ffffff;
 	display:block;
 	font-size: 18px;
 	height:28px;
 	padding-top:5px;
+	position: absolute;
+	right:0;
 	text-align:center;
 	text-decoration: none;
 	width:105px;
+	z-index:100;
+	line-height: normal;
 }
 
 #subscribe ul li a{
@@ -76,5 +91,20 @@ p{
 }
 
 .rss {
-	
+	background-image: url('rss-icon.jpeg');
+}
+
+.fb {
+	background-image: url('fb-icon.png');
+}
+
+.twitter {
+	background-image: url('twitter-icon.jpeg');
+}
+
+.mail{
+	background-image: url('mail-icon.jpeg');
+}
+#slide-out:hover{
+	margin-top:0px;
 }
