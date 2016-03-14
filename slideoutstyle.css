@@ -1,0 +1,80 @@
+@import url('reset.css');
+
+body{
+	color: #484848;
+	background-color: #f7f7f7;
+}
+
+.clear{
+	clear:both;
+}
+
+h1{
+	font-size: 58px;
+	margin-bottom:25px;
+	height:68px; 
+}
+
+h3{
+	font-size: 22px;
+	margin-bottom: 25px;
+}
+
+p{
+	text-align: left;
+	margin-bottom: 20px;
+}
+
+#slide-out{
+	background-color: #686868;
+	height: 73px;
+	color:#fff;
+	position: relative;
+	padding-top: 25px;
+}
+
+.page-wrap{
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+	width: 635px;
+}
+
+#main-container{
+	border-top:thick solid #484848;
+	padding-top: 60px;
+	text-align: center;
+}
+
+.button {
+	background-image:url("subscribe-button.png");
+	color:#ffffff;
+	display:block;
+	font-size: 18px;
+	height:28px;
+	padding-top:5px;
+	text-align:center;
+	text-decoration: none;
+	width:105px;
+}
+
+#subscribe ul li a{
+	background-repeat:no-repeat;
+	display:block;
+	float:left;
+	font-size: 24px;
+	height:38px;
+	margin: 0px 20px;
+	padding:10px 0px 0px 55px;
+	color:#d3d3d3;
+	text-decoration: none;
+	line-height: normal;
+}
+
+#subscribe ul li a:hover{
+	color:#fff;
+}
+
+.rss {
+	
+}
